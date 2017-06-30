@@ -1094,6 +1094,7 @@
 				TargetAttributes = {
 					046C2E6D1F050408008607A2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N5VGXE44HS;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 43FD2EE119BB8D87007E594D;
@@ -1102,7 +1103,7 @@
 						DevelopmentTeam = JP58VMK957;
 					};
 					43FD2EE119BB8D87007E594D = {
-						DevelopmentTeam = JP58VMK957;
+						DevelopmentTeam = N5VGXE44HS;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -1555,6 +1556,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N5VGXE44HS;
 				INFOPLIST_FILE = DashUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1579,6 +1581,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N5VGXE44HS;
 				INFOPLIST_FILE = DashUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1783,7 +1786,7 @@
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Bogdan Popescu (JB3QRP5DC5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = JP58VMK957;
+				DEVELOPMENT_TEAM = N5VGXE44HS;
 				ENABLE_BITCODE = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1800,7 +1803,7 @@
 					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kapeli.dash.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johankj.dash.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1817,7 +1820,7 @@
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Bogdan Popescu (JB3QRP5DC5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = JP58VMK957;
+				DEVELOPMENT_TEAM = N5VGXE44HS;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dash-Prefix.pch";
@@ -1837,7 +1840,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kapeli.dash.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johankj.dash.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
