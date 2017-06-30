@@ -1,6 +1,7 @@
 project 'Dash/Dash iOS.xcodeproj'
 platform :ios, "9.0"
 inhibit_all_warnings!
+use_frameworks!
 
 target "Dash" do
     pod 'MRProgress', :path => 'Modified Pods/MRProgress/MRProgress.podspec'
@@ -19,13 +20,16 @@ target "Dash" do
     # Modified to add originating IP address support to DTBonjourDataConnection
     # Also modified to send a delegate message when a connection closes
     # Replaced asserts() with ifs() in DTBonjourServer start
-    
+
     pod 'Reachability'
     pod 'SAMKeychain'
     pod 'NSTimer-Blocks'
     pod 'GZIP'
     target "Dash App Store" do
         pod 'HockeySDK'
+    end
+    target "DashUITests" do
+        pod 'VSMobileCenterExtensions'
     end
 end
 

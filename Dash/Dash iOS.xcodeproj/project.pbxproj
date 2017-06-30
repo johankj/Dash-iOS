@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		046C2F1A1F054A86008607A2 /* DashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C2F191F054A86008607A2 /* DashUITests.swift */; };
 		26480C2B1E2E9ABB00E3145E /* docset_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26480C2A1E2E9ABB00E3145E /* docset_icon.png */; };
-		3A2F71C185D6471649E8F3A7 /* libPods-Dash-Dash App Store.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB91D369AD27465BED375AD /* libPods-Dash-Dash App Store.a */; };
+		2D13CD4ED60B912E2392F232 /* Pods_Dash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F26900820B58DFCDBFF2C49 /* Pods_Dash.framework */; };
 		4303A3BC19C6584F00A7CD85 /* whitespace_tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4303A3B119C6584F00A7CD85 /* whitespace_tokenizer.c */; };
 		4303A3BD19C6584F00A7CD85 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4303A3B319C6584F00A7CD85 /* FMDatabase.m */; };
 		4303A3BE19C6584F00A7CD85 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4303A3B519C6584F00A7CD85 /* FMDatabaseAdditions.m */; };
@@ -243,7 +243,8 @@
 		43FD2EFF19BB8D87007E594D /* DHDocsetBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FD2EFE19BB8D87007E594D /* DHDocsetBrowser.m */; };
 		43FD2F0219BB8D87007E594D /* DHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FD2F0119BB8D87007E594D /* DHWebViewController.m */; };
 		43FD2F0419BB8D87007E594D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FD2F0319BB8D87007E594D /* Images.xcassets */; };
-		45D28F8ABD1FC392B1930467 /* libPods-Dash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2364AD2032B0714BCD2265 /* libPods-Dash.a */; };
+		9A968F79226C45BC3E47C9B1 /* Pods_Dash_DashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E05360FA6F422E34590653 /* Pods_Dash_DashUITests.framework */; };
+		B99692126812A9A0F9DF78D8 /* Pods_Dash_Dash_App_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8085616CA2BF6CE69E21EF4 /* Pods_Dash_Dash_App_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,7 @@
 		046C2F191F054A86008607A2 /* DashUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashUITests.swift; sourceTree = "<group>"; };
 		046C2F1B1F06A182008607A2 /* DashUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DashUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		26480C2A1E2E9ABB00E3145E /* docset_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = docset_icon.png; sourceTree = "<group>"; };
+		41E05360FA6F422E34590653 /* Pods_Dash_DashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dash_DashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4303A3B019C6584F00A7CD85 /* whitespace_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whitespace_tokenizer.h; sourceTree = "<group>"; };
 		4303A3B119C6584F00A7CD85 /* whitespace_tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = whitespace_tokenizer.c; sourceTree = "<group>"; };
 		4303A3B219C6584F00A7CD85 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -461,12 +463,15 @@
 		43FD2F0019BB8D87007E594D /* DHWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHWebViewController.h; sourceTree = "<group>"; };
 		43FD2F0119BB8D87007E594D /* DHWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHWebViewController.m; sourceTree = "<group>"; };
 		43FD2F0319BB8D87007E594D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AA0CE85A96B846824D5A300 /* Pods-Dash-DashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash-DashUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash-DashUITests/Pods-Dash-DashUITests.release.xcconfig"; sourceTree = "<group>"; };
 		642921D57BB2F4B0450331EC /* Pods-Dash-Dash App Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash-Dash App Store.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash-Dash App Store/Pods-Dash-Dash App Store.debug.xcconfig"; sourceTree = "<group>"; };
 		6BB3997912C96D08897BF444 /* Pods-Dash-Dash App Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash-Dash App Store.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash-Dash App Store/Pods-Dash-Dash App Store.release.xcconfig"; sourceTree = "<group>"; };
 		7E45E2662CBB7671D0D844A3 /* Pods-Dash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash/Pods-Dash.release.xcconfig"; sourceTree = "<group>"; };
-		9A2364AD2032B0714BCD2265 /* libPods-Dash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB91D369AD27465BED375AD /* libPods-Dash-Dash App Store.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dash-Dash App Store.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F26900820B58DFCDBFF2C49 /* Pods_Dash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0885E0CD3EB40146BFFF5F6 /* Pods-Dash-DashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash-DashUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash-DashUITests/Pods-Dash-DashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A11F92371E4348CFF2D7B538 /* Pods_DashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE47FF5DEE33300EBFF9AEA /* Pods-Dash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dash.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Dash/Pods-Dash.debug.xcconfig"; sourceTree = "<group>"; };
+		C8085616CA2BF6CE69E21EF4 /* Pods_Dash_Dash_App_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dash_Dash_App_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -474,6 +479,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A968F79226C45BC3E47C9B1 /* Pods_Dash_DashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +496,7 @@
 				43AB65891ED19D2F00A6EC18 /* CoreGraphics.framework in Frameworks */,
 				43AB658A1ED19D2F00A6EC18 /* UIKit.framework in Frameworks */,
 				43AB658B1ED19D2F00A6EC18 /* Foundation.framework in Frameworks */,
-				3A2F71C185D6471649E8F3A7 /* libPods-Dash-Dash App Store.a in Frameworks */,
+				B99692126812A9A0F9DF78D8 /* Pods_Dash_Dash_App_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +513,7 @@
 				43FD2EE819BB8D87007E594D /* CoreGraphics.framework in Frameworks */,
 				43FD2EEA19BB8D87007E594D /* UIKit.framework in Frameworks */,
 				43FD2EE619BB8D87007E594D /* Foundation.framework in Frameworks */,
-				45D28F8ABD1FC392B1930467 /* libPods-Dash.a in Frameworks */,
+				2D13CD4ED60B912E2392F232 /* Pods_Dash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -966,8 +972,10 @@
 				43FD2EE519BB8D87007E594D /* Foundation.framework */,
 				43FD2EE719BB8D87007E594D /* CoreGraphics.framework */,
 				43FD2EE919BB8D87007E594D /* UIKit.framework */,
-				9A2364AD2032B0714BCD2265 /* libPods-Dash.a */,
-				9FB91D369AD27465BED375AD /* libPods-Dash-Dash App Store.a */,
+				A11F92371E4348CFF2D7B538 /* Pods_DashUITests.framework */,
+				8F26900820B58DFCDBFF2C49 /* Pods_Dash.framework */,
+				C8085616CA2BF6CE69E21EF4 /* Pods_Dash_Dash_App_Store.framework */,
+				41E05360FA6F422E34590653 /* Pods_Dash_DashUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1014,6 +1022,8 @@
 				7E45E2662CBB7671D0D844A3 /* Pods-Dash.release.xcconfig */,
 				642921D57BB2F4B0450331EC /* Pods-Dash-Dash App Store.debug.xcconfig */,
 				6BB3997912C96D08897BF444 /* Pods-Dash-Dash App Store.release.xcconfig */,
+				A0885E0CD3EB40146BFFF5F6 /* Pods-Dash-DashUITests.debug.xcconfig */,
+				5AA0CE85A96B846824D5A300 /* Pods-Dash-DashUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1025,9 +1035,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046C2E771F050408008607A2 /* Build configuration list for PBXNativeTarget "DashUITests" */;
 			buildPhases = (
+				BE2678691B9E09E066F60128 /* [CP] Check Pods Manifest.lock */,
 				046C2E6A1F050408008607A2 /* Sources */,
 				046C2E6B1F050408008607A2 /* Frameworks */,
 				046C2E6C1F050408008607A2 /* Resources */,
+				DC7539574DE4313798D42095 /* [CP] Embed Pods Frameworks */,
+				291F8A8C5ED199105AE3656F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1218,6 +1231,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		291F8A8C5ED199105AE3656F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Dash-DashUITests/Pods-Dash-DashUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		43AB65321ED19D2F00A6EC18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1321,6 +1349,21 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Dash/Pods-Dash-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BE2678691B9E09E066F60128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C71793A2EB8A6FB0EA63C3D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1334,6 +1377,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Dash/Pods-Dash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7539574DE4313798D42095 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Dash-DashUITests/Pods-Dash-DashUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1549,6 +1607,7 @@
 /* Begin XCBuildConfiguration section */
 		046C2E751F050408008607A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0885E0CD3EB40146BFFF5F6 /* Pods-Dash-DashUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1573,6 +1632,7 @@
 		};
 		046C2E761F050408008607A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA0CE85A96B846824D5A300 /* Pods-Dash-DashUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

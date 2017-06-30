@@ -1,0 +1,6 @@
+framework module Pods_Dash_DashUITests {
+  umbrella header "Pods-Dash-DashUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -27,6 +27,8 @@
 #import "DHCSS.h"
 #import "DHTocBrowser.h"
 
+#import <SAMKeychain/SAMKeychain.h>
+
 @implementation DHRemoteServer
 
 + (DHRemoteServer *)sharedServer

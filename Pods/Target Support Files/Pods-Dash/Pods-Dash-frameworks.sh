@@ -87,6 +87,35 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AutoCoding/AutoCoding.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DTBonjour/DTBonjour.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DZNEmptyDataSet/DZNEmptyDataSet.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GZIP/GZIP.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JGMethodSwizzler/JGMethodSwizzler.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KissXML/KissXML.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MRProgress/MRProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NSTimer-Blocks/NSTimer_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Reachability/Reachability.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SAMKeychain/SAMKeychain.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIActionSheet+Blocks/UIActionSheet_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIAlertView+Blocks/UIAlertView_Blocks.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AutoCoding/AutoCoding.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DTBonjour/DTBonjour.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DZNEmptyDataSet/DZNEmptyDataSet.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GZIP/GZIP.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JGMethodSwizzler/JGMethodSwizzler.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KissXML/KissXML.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MRProgress/MRProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NSTimer-Blocks/NSTimer_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Reachability/Reachability.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SAMKeychain/SAMKeychain.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIActionSheet+Blocks/UIActionSheet_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIAlertView+Blocks/UIAlertView_Blocks.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi
