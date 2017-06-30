@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046C2F1A1F054A86008607A2 /* DashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C2F191F054A86008607A2 /* DashUITests.swift */; };
 		26480C2B1E2E9ABB00E3145E /* docset_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26480C2A1E2E9ABB00E3145E /* docset_icon.png */; };
 		3A2F71C185D6471649E8F3A7 /* libPods-Dash-Dash App Store.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB91D369AD27465BED375AD /* libPods-Dash-Dash App Store.a */; };
 		4303A3BC19C6584F00A7CD85 /* whitespace_tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4303A3B119C6584F00A7CD85 /* whitespace_tokenizer.c */; };
@@ -245,7 +246,21 @@
 		45D28F8ABD1FC392B1930467 /* libPods-Dash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2364AD2032B0714BCD2265 /* libPods-Dash.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		046C2E731F050408008607A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43FD2EDA19BB8D87007E594D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43FD2EE119BB8D87007E594D;
+			remoteInfo = Dash;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		046C2E6E1F050408008607A2 /* DashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C2E721F050408008607A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046C2F191F054A86008607A2 /* DashUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashUITests.swift; sourceTree = "<group>"; };
+		046C2F1B1F06A182008607A2 /* DashUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DashUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		26480C2A1E2E9ABB00E3145E /* docset_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = docset_icon.png; sourceTree = "<group>"; };
 		4303A3B019C6584F00A7CD85 /* whitespace_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whitespace_tokenizer.h; sourceTree = "<group>"; };
 		4303A3B119C6584F00A7CD85 /* whitespace_tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = whitespace_tokenizer.c; sourceTree = "<group>"; };
@@ -455,6 +470,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		046C2E6B1F050408008607A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43AB65821ED19D2F00A6EC18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +514,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046C2E6F1F050408008607A2 /* DashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046C2E721F050408008607A2 /* Info.plist */,
+				046C2F191F054A86008607A2 /* DashUITests.swift */,
+				046C2F1B1F06A182008607A2 /* DashUITests-Bridging-Header.h */,
+			);
+			path = DashUITests;
+			sourceTree = "<group>";
+		};
 		4303A3AF19C657FE00A7CD85 /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -906,6 +938,7 @@
 			isa = PBXGroup;
 			children = (
 				43FD2EEB19BB8D87007E594D /* Dash */,
+				046C2E6F1F050408008607A2 /* DashUITests */,
 				43FD2EE419BB8D87007E594D /* Frameworks */,
 				43FD2EE319BB8D87007E594D /* Products */,
 				578166A9FCC162CE3E4A4980 /* Pods */,
@@ -917,6 +950,7 @@
 			children = (
 				43FD2EE219BB8D87007E594D /* Dash.app */,
 				43AB65B21ED19D2F00A6EC18 /* Dash.app */,
+				046C2E6E1F050408008607A2 /* DashUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -987,6 +1021,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		046C2E6D1F050408008607A2 /* DashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C2E771F050408008607A2 /* Build configuration list for PBXNativeTarget "DashUITests" */;
+			buildPhases = (
+				046C2E6A1F050408008607A2 /* Sources */,
+				046C2E6B1F050408008607A2 /* Frameworks */,
+				046C2E6C1F050408008607A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C2E741F050408008607A2 /* PBXTargetDependency */,
+			);
+			name = DashUITests;
+			productName = DashUITests;
+			productReference = 046C2E6E1F050408008607A2 /* DashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		43AB65311ED19D2F00A6EC18 /* Dash App Store */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43AB65AF1ED19D2F00A6EC18 /* Build configuration list for PBXNativeTarget "Dash App Store" */;
@@ -1036,9 +1088,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DH;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Kapeli;
 				TargetAttributes = {
+					046C2E6D1F050408008607A2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43FD2EE119BB8D87007E594D;
+					};
 					43AB65311ED19D2F00A6EC18 = {
 						DevelopmentTeam = JP58VMK957;
 					};
@@ -1068,11 +1127,19 @@
 			targets = (
 				43FD2EE119BB8D87007E594D /* Dash */,
 				43AB65311ED19D2F00A6EC18 /* Dash App Store */,
+				046C2E6D1F050408008607A2 /* DashUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		046C2E6C1F050408008607A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43AB658D1ED19D2F00A6EC18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1271,6 +1338,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		046C2E6A1F050408008607A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C2F1A1F054A86008607A2 /* DashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43AB65331ED19D2F00A6EC18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1443,6 +1518,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		046C2E741F050408008607A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43FD2EE119BB8D87007E594D /* Dash */;
+			targetProxy = 046C2E731F050408008607A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		43FD2EEE19BB8D87007E594D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -1463,6 +1546,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		046C2E751F050408008607A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DashUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johankj.DashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "DashUITests/DashUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dash;
+			};
+			name = Debug;
+		};
+		046C2E761F050408008607A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = DashUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johankj.DashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DashUITests/DashUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dash;
+			};
+			name = Release;
+		};
 		43AB65B01ED19D2F00A6EC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 642921D57BB2F4B0450331EC /* Pods-Dash-Dash App Store.debug.xcconfig */;
@@ -1719,6 +1848,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		046C2E771F050408008607A2 /* Build configuration list for PBXNativeTarget "DashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C2E751F050408008607A2 /* Debug */,
+				046C2E761F050408008607A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		43AB65AF1ED19D2F00A6EC18 /* Build configuration list for PBXNativeTarget "Dash App Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
